@@ -192,6 +192,37 @@ a {
 
 /* HERO 2 styles */
 
+@media only screen and (min-width: 768px) {
+  .container-box-wrapper {
+    display: flex;
+    column-gap: 144px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container-box {
+    position: absolute;
+    top: 408px;
+    left: 62px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container-box-right {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 44px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container-box-right {
+    position: absolute;
+    top: 336px;
+    right: 45px;
+  }
+}
+
 .hero-text {
   margin-left: auto;
   margin-right: auto;
@@ -280,6 +311,12 @@ a {
   justify-content: center;
   gap: 8px;
   margin-bottom: 44px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hashtags-list {
+    justify-content: flex-end;
+  }
 }
 
 .hashtags-item {
